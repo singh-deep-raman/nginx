@@ -1,0 +1,12 @@
+// NGINX
+
+* NGINX (pronounced "engine-x") is a high-performance, open-source web server, reverse proxy, load balancer, and HTTP cache
+* It is used for
+    - Web server – serves static files like HTML, CSS, images
+    - Reverse proxy – sits in front of backend apps (Java, Node, Python, etc.)
+    - Load balancer – distributes traffic across multiple servers
+    - API gateway – handles routing, SSL, rate limiting
+    - Caching – speeds things up by caching responses
+
+* We will talk about as Nginx as Load Balancer here
+* Nginx uses round-robin algorithm to distribute the load among servers
